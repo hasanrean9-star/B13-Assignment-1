@@ -147,4 +147,43 @@ h2{
 }
 .main{
     display: flex;
+    margin-top: 44px;
+    gap: 24px;
+}
+.main-box{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 322px;
+    height: 300px;
+    border-radius: 8px;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+background: rgba(255, 255, 255, 1);
+}
+.main-box-title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 16px;
+}
+.main-box-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 16px;
+    color: rgba(98, 115, 130, 1);
+}
+.img-bg{
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    padding: 13px 14px;
+}
+.img-wd-hg{
+    width: 32px;
+    height: 32px;
+
 }
