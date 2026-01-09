@@ -168,7 +168,7 @@ background: rgba(255, 255, 255, 1);
     line-height: 29px;
     margin-top: 16px;
 }
-.main-box-description{
+.description{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -185,5 +185,28 @@ background: rgba(255, 255, 255, 1);
 .img-wd-hg{
     width: 32px;
     height: 32px;
+}
 
+#knowledge{
+    width: 1600px;
+    height: 840px;
+    padding: 120px;
+    align-items: center;
+
+}
+.second-brain{
+    display: flex;
+    gap: 60px;
+}
+.instruction{
+    margin-top: 40px;
+}
+.check{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(0, 25, 49, 1);
+    gap: 6px;
+    margin-bottom: 16px;
 }
