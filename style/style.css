@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo{
+    width: 139px;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 16px;
+}
+nav {
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 36px;
+    font-weight: 500;
+    opacity: 0.9;
+    font-style: medium;
+}
+.btn{
+     text-align: center;
+     width: 164px;
+     height: 44px;
+     border: none;
+     background-color: #30B868;
+     color: rgba(255, 255, 255, 1);
+     font-size: 16px;
+     font-weight: 600;
+     margin-right: 120px;
+
+
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-div{
+    background-image: url('../assets/hero-bg.png');
+    width: 1600px;
+    height: 600px;
+    margin-top: 20px;
+
+}
+.early{
+    border-radius: 100px; 
+    display: flex; 
+    align-items: center;
+     justify-content: space-between;
+      margin-top: 90px; 
+      font-size: 16px; 
+      font-weight: 500; 
+      color: green; 
+      background-color: white;
+      width: 230px;
+      height: 35px;
+      padding: 8px 12px 8px 12px;
+      margin-bottom: 16px;
+}
+h1{
+    font-style: bold;
+    font-size: 72px;
+    font-weight: 700px;
+    text-align: center;
+    line-height: 84px;
+    opacity: 0.9; 
+}
+.sub-title{
+    font-size: 18px;
+    font-weight: 400px;
+    width: 1360px;
+    height: 60px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+.start-btn{
+    width: 251px;
+    height: 52px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background-color: 
+#30B868;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+padding: 16px;
+border-radius: 4px;
+border: none;
+}
+.see-btn{
+    width: 198px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+     color: rgba(255, 255, 255, 1);
+     box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 1);
+border-radius: 4px;
+}
+.two-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+
+}
