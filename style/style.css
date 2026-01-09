@@ -132,3 +132,19 @@ border-radius: 4px;
     margin-bottom: 10px;
 
 }
+#note{
+    width: 1600px;
+    height: 448px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    margin-top: 60px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.main{
+    display: flex;
+}
